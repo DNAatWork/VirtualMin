@@ -1,3 +1,5 @@
+# Orginal Script, credits to https://aatayyab.wordpress.com/2015/08/31/wordpress-installer-script-on-virtualmin/
+
 # script_custompress_desc()
 sub script_custompress_desc
 {
@@ -147,7 +149,7 @@ sub script_custompress_files
 local ($d, $ver, $opts, $upgrade) = @_;
 local @files = ( { 'name' => "source",
 	   'file' => "custompress-$ver.zip",
-	   'url' => "https://wordpress.org/latest.zip",
+	   'url' => "https://wordpress.org/wordpress-3.8.1.zip",
 	   'virtualmin' => 0,
 	   'nocache' => 1 } );
 return @files;
